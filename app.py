@@ -79,13 +79,16 @@ with st.sidebar:
     
     st.markdown("**💡 Example Questions:**")
     examples = [
-        "How many customers are there?",
-        "Which city has the most customers?",
-        "What is the total revenue?",
-        "Top 3 customers by total spending?",
-        "Show all Platinum customers",
-        "Which brand has the highest rating?"
-    ]
+    "How many orders are there in total?",
+    "What's the most popular menu item across all brands?",
+    "Top 5 customers by lifetime spending",
+    "Which restaurant has the highest average rating?",
+    "Show me orders that used the 'Diwali Special' promotion",
+    "Average order value per brand",
+    "Which employee role earns the most on average?",
+    "Show me the 3 lowest-rated feedback comments",
+    "How many vegetarian menu items does each brand have?",
+]
     for ex in examples:
         st.markdown(f"- {ex}")
     
