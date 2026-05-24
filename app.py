@@ -33,7 +33,7 @@ db = SQLDatabase.from_uri(f"sqlite:///{DB_PATH}")
 def get_agent():
     llm = ChatGroq(
         api_key=os.getenv("GROQ_API_KEY"),
-        model="llama-3.1-70b-versatile",
+        model="llama-3.3-70b-versatile",
         temperature=0
     )
     return create_sql_agent(
